@@ -1,5 +1,14 @@
 # AlertsTelegram4SAPPO
 
+![image](https://user-images.githubusercontent.com/7569642/207462346-415ca487-b538-4efc-9328-e406eca96420.png)
+
+Message-Driven Bean implementation class for TelegramAlertingJob in SAP PI/PO. Sends messages from standard JMS queue alertingVP to Telegram channel via bot.
+
+## Telegram bot & channel settings
+
+1. Create public channel with public link (@nickname)
+2. Create bot via [@botfather](https://t.me/BotFather)
+3. Add bot to channel as admin
 
 ## How to config job in SAP PO
 
@@ -29,10 +38,10 @@ This is used as a name for JMS queue in alertingVP.
 
 *chatId* - id of telegram channel
 
-You can get it this way: 
+How to get id of private telegram channel: 
 
 - Add bot as administrator to channel
-- Set channel as Public channel and set channel nickname
+- Set channel as Public channel and set channel nickname like @nickname
 - Send message using https request: https://api.telegram.org/{botToken}/sendMessage?chat_id=@{channelNickName}&text=*test*&parse_mode=Markdown 
 
 As a result you will get JSON including real chat id:
