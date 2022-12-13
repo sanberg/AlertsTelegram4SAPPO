@@ -20,7 +20,8 @@
 
 ![image](https://user-images.githubusercontent.com/7569642/207359407-0c241b4d-9214-42b4-892c-4e3d0c7067c4.png)
 
-alertConsumer: name of a consumer, that was set in SAP PO Alert Rule
+*alertConsumer*: name of a consumer that was set in SAP PO Alert Rule. 
+This is used as a name for JMS queue in alertingVP.
 
 *maxAlertCount* is max count of consumed alerts from JMS queue
 
@@ -72,7 +73,7 @@ As a result you will get JSON including real chat id:
 ![image](https://user-images.githubusercontent.com/7569642/207364908-e8e73ec7-2e1f-45dc-95ee-4481c43fff73.png)
 
 
-Finish the job configuration. As a result you will find a job on Tasks tab
+7. Finish the job configuration. As a result you will find a job on Tasks tab
 
 ![image](https://user-images.githubusercontent.com/7569642/207365733-63daeb4a-bab0-498d-a1ce-4457e5e2e06f.png)
 
