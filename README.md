@@ -14,20 +14,19 @@ Message-Driven Bean implementation class for TelegramAlertingJob in SAP PI/PO. S
 
 1. *Operations->Jobs* and open *Java Scheduler*
     
-![NWA_1](https://user-images.githubusercontent.com/7569642/207361440-127bc192-8ba2-460d-b735-73b575554b49.png)
-
+![Java Scheduler](https://user-images.githubusercontent.com/7569642/226341214-16476bc1-a3e9-47d6-b690-0e8b5e81e4f6.png)
 
 2. On *Java Scheduler* screen go to tab *Tasks* and click the *Add* button
     
-![NWA_2](https://user-images.githubusercontent.com/7569642/207361501-b9d6cf7e-45ef-4ade-b66d-43701a620d56.png)
+![Tasks](https://user-images.githubusercontent.com/7569642/226341317-2a797efb-c982-4ec2-a7fb-f9452f0c371f.png)
 
 3. Select TelegramAlertingJob
 
-![image](https://user-images.githubusercontent.com/7569642/226339973-9706221c-8392-45bd-b2d8-f637a14f45ba.png)
+![image](https://user-images.githubusercontent.com/7569642/207358318-f7d7dd3f-61e6-4e9a-aff0-c9605c39af0d.png)
 
 4. Enter Job Parametres    
 
-![image](https://user-images.githubusercontent.com/7569642/226340231-76569d53-970f-4099-b9e4-04dc27445498.png)
+![image](https://user-images.githubusercontent.com/7569642/207359407-0c241b4d-9214-42b4-892c-4e3d0c7067c4.png)
 
 *alertConsumer*: name of a consumer that was set in SAP PO Alert Rule. 
 This is used as a name for JMS queue in alertingVP.
