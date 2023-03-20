@@ -23,11 +23,11 @@ Message-Driven Bean implementation class for TelegramAlertingJob in SAP PI/PO. S
 
 3. Select TelegramAlertingJob
 
-![image](https://user-images.githubusercontent.com/7569642/207358318-f7d7dd3f-61e6-4e9a-aff0-c9605c39af0d.png)
+![image](https://user-images.githubusercontent.com/7569642/226339973-9706221c-8392-45bd-b2d8-f637a14f45ba.png)
 
 4. Enter Job Parametres    
 
-![image](https://user-images.githubusercontent.com/7569642/207359407-0c241b4d-9214-42b4-892c-4e3d0c7067c4.png)
+![image](https://user-images.githubusercontent.com/7569642/226340231-76569d53-970f-4099-b9e4-04dc27445498.png)
 
 *alertConsumer*: name of a consumer that was set in SAP PO Alert Rule. 
 This is used as a name for JMS queue in alertingVP.
