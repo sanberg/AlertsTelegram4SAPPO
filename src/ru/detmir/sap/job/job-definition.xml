@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<job-definitions>
-	<job-definition description="Sends PI alerts notifications to Telegram" name="TelegramAlertingJob">
-		<job-definition-parameter data-type="String" description="Consumer name as entered in Alert Rule" direction="IN" name="alertConsumer"/>
-		<job-definition-parameter data-default="2" data-type="Integer" description="Maximum number of alerts per message (always less than 20)" direction="IN" name="maxAlertCount" nullable="y"/>
-		<job-definition-parameter data-type="String" description="Telegram bot token" direction="IN" name="apiToken"/>
-		<job-definition-parameter data-type="String" description="Telegram alerts channel chat_id" direction="IN" name="chatId"/>
-	</job-definition>
-</job-definitions>
